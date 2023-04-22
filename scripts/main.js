@@ -4,5 +4,3 @@ currentyear.textContent = today.getFullYear();
 
 const lastUpdated = document.querySelector("#lastUpdated");
 lastUpdated.textContent = document.lastModified;
-
-// const daysUntil = "There are " + daycount + " days until " + targetEvent + "!";
