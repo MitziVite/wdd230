@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-
 .content{
     width: 800px;   
     margin: 0 auto;
@@ -21,8 +20,8 @@ header{
 
 header img{
     margin: 1rem 2.7rem;
-    height: 130px;
-    width: 90px;
+    height: 9rem;
+    width: 6.3rem;
     border-radius: 1rem;
 }
 
