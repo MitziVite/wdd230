@@ -24,7 +24,7 @@ h1,h2,h3,a,p{
 }
 
 
-/* Media Query for medium devices */
+/* Media Query for large devices */
 @media (max-width: 1900px){
 
     main{
