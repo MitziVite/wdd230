@@ -114,7 +114,7 @@ h1,h2,h3,a,p{
 
 
 /* Media Query for small devices */
-@media (max-width: 550px) {
+@media (max-width: 500px) {
     .container1, .container2, .container3{
         background-color: #DDE6C4;
         padding: 10px;
