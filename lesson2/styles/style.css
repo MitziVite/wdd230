@@ -24,46 +24,43 @@ h1,h2,h3,a,p{
 }
 
 
-/* Media Query for large devices */
-@media (max-width: 1900px){
-
-    main{
-        display: grid;
-        grid-template-areas: "s1 s2 s3";
-    }
-
-    .container1{
-        grid-area: s1; 
-    }
-
-    .container2{
-        grid-area: s2; 
-    }
-
-    .container3{
-        grid-area: s3; 
-    }
-
-    .container1, .container2, .container3{
-        background-color: #f3dae4;        
-    }
-
-    header {
-        display: block;
-        align-items: center;
-        background-color: #ed97a1;
-        border-radius: 1rem;
-        border: 2px black solid;
-        text-align: center;
-        font-size: 1rem;
-
-    }
-    .title{
-        background-color: #ed97a1;
-        border-radius: 0.5rem;
-        margin: 1rem;
-    }
+main{
+    display: grid;
+    grid-template-areas: "s1 s2 s3";
 }
+
+.container1{
+    grid-area: s1; 
+}
+
+.container2{
+    grid-area: s2; 
+}
+
+.container3{
+    grid-area: s3; 
+}
+
+.container1, .container2, .container3{
+    background-color: #f3dae4;        
+}
+
+header {
+    display: block;
+    align-items: center;
+    background-color: #ed97a1;
+    border-radius: 1rem;
+    border: 2px black solid;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.title{
+    background-color: #ed97a1;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
 
 
 /* Media Query for medium devices */
