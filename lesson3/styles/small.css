@@ -1,0 +1,31 @@
+@media screen and (max-width: 450px){
+    
+    header ul li{
+        list-style: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    header ul li a{
+        display: block;
+        text-decoration: none;
+        color: var(--accent-color);
+        padding: 1rem;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    main{
+        margin: 0 auto;
+        width: 350px;
+    }
+    
+    /* .content{
+        width: 100%;
+    } */
+    header p {
+        font-size: 1.2rem;
+    } 
+}

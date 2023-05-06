@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap');
+:root{
+    --main-font: 'Playfair Display', serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-color: #FDF7F2;
+    --secondary-color: #D5B495;
+    --third-color: #e3b481;
+    --accent-color: white;
+    --default-color: black;   
+}
+header{
+    font-family: var(--main-font);
+    background-color: var(--third-color);
+    text-align: center;
+    padding: 1px 0px 0px 0px;
+}
+header ul{
+padding-inline-start: 0px;
+}
+
+
+header ul li{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+header ul li a{
+    display: block;
+    text-decoration: none;
+    color: var(--accent-color);
+    padding: 1rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+header ul li a:hover{
+    background-color: var(--default-color);
+}
+
+ul li{
+    border-color: var(--default-color);
+}
+
+.active{
+    background-color: var(--default-color);
+}
+
+.active a{  
+    color: var(--default-color);
+    color: var(--accent-color);
+} 
+
+h2{
+    font-family: var(--main-font);
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+h1, h2, h3, h4{
+    font-family: var(--main-font);
+}
+p, li{
+    font-family: var(--secondary-font);
+} 
+
+
+ .pallete1{
+    background-color: var(--third-color);
+    color: var(--accent-color);
+    padding: 5px 25px;
+}
+
+.pallete2{
+    background-color: var(--third-color);
+    color: var(--accent-color);
+    padding: 5px 25px;
+}
+.pallete3{
+    background-color: var(--default-color);
+    color: var(--accent-color);
+    padding: 5px 25px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid var(--default-color);
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+th, td {
+    border: 1px solid var(--default-color);
+    padding: 8px;
+}
+
+
+
+footer{
+    background-color: var(--third-color);
+    text-align: center;
+    padding: 1px 1px;
+    margin-top: 2%;
+}
