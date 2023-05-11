@@ -52,6 +52,29 @@ ul li{
     color: var(--default-color);
     color: var(--accent-color);
 } 
+/* Hamburger menu */
+#navbar{
+    display: none;
+}
+
+#navbar.active{
+    display: flex;
+}
+
+#menu-open{
+    display: block;
+}
+
+#menu-open.active{
+    display: none;
+}
+
+#menu-close{
+    display: none;
+}
+#menu-close.active{
+    display: block;
+}
 
 h2{
     font-family: var(--main-font);
@@ -104,3 +127,8 @@ footer{
     padding: 1px 1px;
     margin-top: 2%;
 }
+
+
+/* #menu-button{
+    display: none;
+} */

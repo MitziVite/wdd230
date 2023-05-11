@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/small.css">
     <link rel="stylesheet" href="./styles/medium.css">
+    <script src="../lesson3/script/main.js" defer></script>
     
 </head>
 <body>
@@ -17,15 +18,20 @@
     <header>
         <h1>Chamber of Commerce Site Plan</h1>
         <p>Mitzi Vite</p>
-        
+    
         <nav>
-            <ul>
+            <button id="menu-button">
+                <span class="active" id="menu-open">&equiv;</span>
+                <span class="active" id="menu-close">X</span>
+            </button>
+            <ul class="active" id="navbar">
                 <li class="active"><a href="./index.html">Home</a></li>
                 <li><a href="./target-audience.html">Audience</a></li>
                 <li><a href="./design.html">Design</a></li>
             </ul>
         </nav>
     </header>
+    
     <main>
         <h2>Mexico City Chamber of Commerce</h2>
         <p>
