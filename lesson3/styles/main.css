@@ -28,7 +28,7 @@ header ul li{
 header ul li a{
     display: block;
     text-decoration: none;
-    color: var(--accent-color);
+    color: var(--default-color);
     padding: 1rem;
 }
 
@@ -37,6 +37,7 @@ header p {
 }
 header ul li a:hover{
     background-color: var(--default-color);
+    color: var(--accent-color);
 }
 
 ul li{
