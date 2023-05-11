@@ -92,13 +92,12 @@ p, li{
 
  .pallete1{
     background-color: var(--third-color);
-    color: var(--accent-color);
+    
     padding: 5px 25px;
 }
 
 .pallete2{
     background-color: var(--third-color);
-    color: var(--accent-color);
     padding: 5px 25px;
 }
 .pallete3{
@@ -128,6 +127,15 @@ footer{
     margin-top: 2%;
 }
 
+.heading1{
+    font-size: 1.8rem;
+}
+.heading2{
+    font-size: 1.6rem;
+}
+.heading3{
+    font-size: 1.3rem;
+}
 
 /* #menu-button{
     display: none;
