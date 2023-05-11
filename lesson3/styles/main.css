@@ -92,12 +92,13 @@ p, li{
 
  .pallete1{
     background-color: var(--third-color);
-    
+    font-size: larger;
     padding: 5px 25px;
 }
 
 .pallete2{
     background-color: var(--third-color);
+    font-size: larger;
     padding: 5px 25px;
 }
 .pallete3{
