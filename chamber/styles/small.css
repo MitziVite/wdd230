@@ -100,105 +100,6 @@ body{
     #menu-close.active{
         display: block;
     }
-/* 
-    nav ul li {
-        list-style: none; */
-        /* width: 100%; */
-        /* text-align: left; */
-    /* } */
-
-    /* nav ul li a { */
-        /* display: block; */
-        /* text-decoration: none;
-        color: black;
-        padding: .5rem;
-        text-align: center;
-    }
-    nav ul li a:hover {
-        background-color: black;
-        color: white;
-        padding: 10px;
-        border-radius: 25px;
-    }
-         */
-
-/* 
-    header ul li a {
-            display: block;
-            text-decoration: none;
-            color: black;
-            padding: 1rem;
-    } */
-/* 
-    #navbar.active{
-        display: flex;
-    }
-
-    nav ul li{
-        padding: 0 40px;
-        height: 80px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        text-decoration: none;
-    }
-
-    nav ul li:hover {
-        background-color: black;
-        color: white;
-        padding: 0 40px;
-        height: 80px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        text-decoration: none;
-    } */
-    /* nav ul li a { 
-        display: block;
-        text-decoration: none;
-        color: black;
-        padding: .5rem;
-        text-align: center;
-    } */
-
-    /* nav ul li a:hover {
-        background-color: black;
-        color: white;
-        padding: 10px;
-        border-radius: 25px;
-    }  */
-
-    /* nav{
-        padding: 0 40px;
-        height: 80px;
-        background-color: black;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    #navbar{
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        top: 80px;
-        right: 0;
-        display: grid;
-        place-items: center;
-        clip-path: circle(0% at top left);
-        transition: clip-path .4s;
-        background-color: blanchedalmond;
-    }
-
-    .nav-link{
-        text-decoration: none;
-        color: black;
-    }
-
-    #navbar:target{
-        clip-path: circle(150% at top left);
-    } */
-
     
 
     header ul{
@@ -238,6 +139,11 @@ body{
     nav{
         order: 4;
         width: 100%;
+    }
+
+    nav button{
+        background-color: #9a7250;
+        border-color: transparent;
     }
         
 } 

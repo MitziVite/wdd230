@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <script src="./scripts/main.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" defer></script>
+    <script src="./scripts/date.js" defer></script>
 
 </head>
 <body>
@@ -26,26 +27,23 @@
             <a href="#"></a><img src="./images/facebookLogo.png" alt="facebook logo"></a>
             <a href="#"></a><img src="./images/linkedinLogo.png" alt="linkedin logo"></a>
         </div>
-        
 
-        <nav>
-            <button id="menu-button">
-                <span class="active" id="menu-open">&equiv;</span>
-                <span class="active" id="menu-close">X</span>
-            </button>
-            <ul class="active" id="navbar" >
-                <li class="active"><a href="./index.html">Home</a></li>
-                <li><a href="./index.html" class="nav-link">Discover</a></li>
-                <li><a href="./index.html" class="nav-link">Directory</a></li>
-                <li><a href="./index.html" class="nav-link">Join</a></li>
-                <li><a href="./index.html" class="nav-link">Contact</a></li>
-            </ul>
-        </nav>
-        
-        
     </div>
-    <div>
-        <p class="date">date</p>
+    <nav>
+        <button id="menu-button">
+            <span class="active" id="menu-open">&equiv;</span>
+            <span class="active" id="menu-close">X</span>
+        </button>
+        <ul class="active" id="navbar" >
+            <li class="active"><a href="./index.html">Home</a></li>
+            <li><a href="./index.html" class="nav-link">Discover</a></li>
+            <li><a href="./index.html" class="nav-link">Directory</a></li>
+            <li><a href="./index.html" class="nav-link">Join</a></li>
+            <li><a href="./index.html" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="date">
+        <p class="lastUpdated"><span id="date"></span></p>
     </div>
     </header>
         
