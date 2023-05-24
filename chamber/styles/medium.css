@@ -1,16 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body{
     font-family: 'Raleway', sans-serif;
-}
+} */
 
 /* Media Query for small devices */
-@media (max-width: 450px) {
-
-    header{
-        background-color: #D5B495;
-        padding: 3px;
-    }
+/* @media screen and (min-width: 450px){
 
     header .content {
         display: flex;
@@ -19,24 +14,12 @@ body{
         background-color: #D5B495;
     }
 
-    .image-logo{
-        order: 0;
-        width: 100px;
-        margin: 5px;
-        border-radius: 20px;
-
-    }
 
     .title{
         order: 0;
         font-size: 13px;
     }
 
-    .socialMedia img{
-        width: 35px;
-        margin: auto 2px;
-        border-radius: 10px;
-    }
 
     .socialMedia,
     .links {
@@ -46,24 +29,13 @@ body{
       order: 0;
     }
 
-    .date {
-        border: 2px solid black;
-        text-align: center;
-        margin: 20px;
-        padding: 15px;
-        border-radius: 20px;
-        
-    }
 
     .menu-button{
         order: 2;
         border-radius: 10px;
     }
 
-    main{
-           
-        margin: 0 auto;
-    }
+
       
     section {
         border: 2px solid black;
@@ -85,9 +57,11 @@ body{
     
     #navbar.active{
         display: flex;
-    }
+    } */
+
+    /* Hamburger menu */
     
-    #menu-open{
+    /* #menu-open{
         display: block;
     }
     
@@ -165,22 +139,6 @@ body{
         border-color: transparent;
     }
 
-    /* .join {
-        display: none;
-    }
-
-    .location {
-        text-decoration: none;
-        color: white;
-    }
-    .loc-icon {
-        width: 15px;
-    }
-    .site {
-        text-decoration: none;
-        color: white;
-    } */
-
     footer {
         text-align: center;
         background-color: #D5B495;
@@ -192,4 +150,35 @@ body{
         padding: 5px;
     }
         
-} 
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .hero {
+        grid-column: 1/4;
+        grid-row: 1;
+    }
+    
+    .newRelease {
+        grid-column: 1/4;
+        grid-row: 2;
+    }
+
+    .Spotlight {
+        display: flex;
+        grid-column: 1/4;
+        grid-row: 3;
+    }
+
+    .join {
+        display: flex;
+        grid-column: 1/4;
+        grid-row: 4;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+}  */
