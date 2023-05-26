@@ -1,175 +1,223 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body{
     font-family: 'Raleway', sans-serif;
 }
 
 
-header{
-    background-color: #D5B495;
-    padding: 3px;
-}
+    header{
+        background-color: #D5B495;
+        padding: 3px;
+    }
 
-header .content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #D5B495;
-}
+    header .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #D5B495;
+    }
 
-.image-logo{
-    order: 0;
-    width: 100px;
-    margin: 5px;
-    border-radius: 20px;
-}
+    .image-logo{
+        order: 0;
+        width: 100px;
+        margin: 5px;
+        border-radius: 20px;
+    }
 
-.title{
-    order: 0;
-    font-size: 13px;
-}
+    .title{
+        order: 0;
+        font-size: 11px;
+    }
 
-.socialMedia img{
-    width: 35px;
-    margin: auto 2px;
-    border-radius: 10px;
-}
+    .socialMedia img{
+        width: 35px;
+        margin: auto 2px;
+        border-radius: 10px;
+    }
 
-.socialMedia,
-.links {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    order: 0;
-}
+    .socialMedia,
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      order: 0;
+    }
 
-.date {
-    border: 2px solid black;
-    text-align: center;
-    margin: 20px;
-    padding: 15px;
-    border-radius: 20px;
-}
+    .date {
+        border: 2px solid black;
+        text-align: center;
+        margin: 20px;
+        padding: 15px;
+        border-radius: 20px;
+    }
 
-.menu-button{
-    order: 2;
-    border-radius: 10px;
-}
-
-main{
-           
-    margin: 0 auto;
-}
-      
-section {
-    border: 2px solid black;
-    padding: 10px;
-    margin: 5px;
-}
-
-footer{
-    text-align: center;
-}
-
-footer img{
-    width: 100px;
-}
-
-#navbar{
-    display: none;
-}
+    /*       HAMBURGER MENU        */
+    #navbar{
+        display: none;
+    }
     
-#navbar.active{
-    display: flex;
-}
+    #navbar.active{
+        display: flex;
+    }
     
-#menu-open{
-    display: block;
-}
+    #menu-open{
+        display: block;
+    }
     
-#menu-open.active{
-    display: none;
-}
+    #menu-open.active{
+        display: none;
+    }
     
-#menu-close{
-    display: none;
-}
-#menu-close.active{
-    display: block;
-}
-    
-header ul{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    
-}
+    #menu-close{
+        display: none;
+    }
 
-nav ul li{
-    list-style: none;
-    width: 100%;
-    text-align: center;
-    text-align: left;
-}
+    #menu-close.active{
+        display: block;
+    }
+    
+    header ul{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
 
-nav ul li a{
-    display: block;
-    text-decoration: none;
-    color: black;
-    padding: 1rem;
-}
+    nav{
+        order: 4;
+        width: 100%;
+    }
 
+    nav ul{
+        padding-inline-start: 0px;
+    }
 
-nav ul{
-    padding-inline-start: 0px;
-}
+    nav ul li{
+        list-style: none;
+        width: 100%;
+        text-align: center;
+        text-align: left;
+    }
+
+    nav ul li a{
+        display: block;
+        text-decoration: none;
+        color: black;
+        padding: 1rem;
+    }
         
-nav ul li a:hover{
-    background-color: black;
-    color: white;
-}
+    nav ul li a:hover{
+            background-color: black;
+            color: white;
+    }
 
-nav{
-    order: 4;
-    width: 100%;
-}
+    #menu-button{
+        background-color: #9a7250;
+        border-color: transparent;
+        border-radius: 5px;
+        margin: 3px;
+    }
 
-nav button{
-    background-color: #9a7250;
-    border-color: transparent;
-}
 
-main section {
-    background-color:#d5b495a4;
-}
- 
-.spotlight1, .spotlight2 {
-    border-style: ridge;
-    border-color: black;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 20px;
-}
+    /*          Main             */
 
-.spotlight3 {
-    display: none;
-}
+    .main-area {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(170px, auto);
+        grid-template-areas:
+          "e h s"
+          "w h s"
+          "j r s";
+      }
 
-section{
-    border-radius: 20px;
-    border-color: transparent;
-}
+    main section {
+        background-color:#d5b495a4;
+    }
 
-footer {
-    text-align: center;
-    background-color: #D5B495;
-    padding: 20px;
-}
 
-footer p {
-    margin: 0;
-    padding: 5px;
-}
+    .hero{
+        
+        grid-area: h;
+    }
+        
+    .newRelease {
+        grid-area: r;
+    }
 
-         */
+    .Spotlight {
+        grid-area: s;
+    }
+
+
+
+
+
+     .join {
+        grid-area: j;
+    }
+
+    .event {
+        grid-area: e;
+    }
+
+    .weather {
+        grid-area: w;
+    }
+
+
+
+    section{
+        border-radius: 20px;
+        border-color: transparent;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 5px;
+    }
+
+/*  
+    .spotlight1, .spotlight2 {
+        border-style: ridge;
+        border-color: black;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    } */
+
+    .spotlight3 {
+        display: none;
+    }
+
+
+
+
+    .location {
+        text-decoration: none;
+        color: white;
+    }
+    .loc-icon {
+        width: 15px;
+    }
+    .site {
+        text-decoration: none;
+        color: white;
+    } 
+
+
+
+
+    footer {
+        text-align: center;
+        background-color: #D5B495;
+        padding: 20px;
+    }
+
+    footer img{
+        width: 100px;
+    }
+
+    footer p {
+        margin: 0;
+        padding: 5px;
+    }
+        

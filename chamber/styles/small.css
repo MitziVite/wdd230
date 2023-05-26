@@ -5,8 +5,8 @@ body{
 }
 
 /* Media Query for small devices */
-@media (max-width: 450px) {
-
+@media screen and (max-width: 450px){
+   
     header{
         background-color: #D5B495;
         padding: 3px;
@@ -24,12 +24,11 @@ body{
         width: 100px;
         margin: 5px;
         border-radius: 20px;
-
     }
 
     .title{
         order: 0;
-        font-size: 13px;
+        font-size: 11px;
     }
 
     .socialMedia img{
@@ -52,33 +51,9 @@ body{
         margin: 20px;
         padding: 15px;
         border-radius: 20px;
-        
     }
 
-    .menu-button{
-        order: 2;
-        border-radius: 10px;
-    }
-
-    main{
-           
-        margin: 0 auto;
-    }
-      
-    section {
-        border: 2px solid black;
-        padding: 10px;
-        margin: 5px;
-    }
-
-    footer{
-        text-align: center;
-    }
-
-    footer img{
-        width: 100px;
-    }
-
+    /*       HAMBURGER MENU        */
     #navbar{
         display: none;
     }
@@ -98,6 +73,7 @@ body{
     #menu-close{
         display: none;
     }
+
     #menu-close.active{
         display: block;
     }
@@ -106,7 +82,15 @@ body{
         display: flex;
         flex-direction: column;
         position: relative;
-    
+    }
+
+    nav{
+        order: 4;
+        width: 100%;
+    }
+
+    nav ul{
+        padding-inline-start: 0px;
     }
 
     nav ul li{
@@ -122,31 +106,78 @@ body{
         color: black;
         padding: 1rem;
     }
-
-
-    nav ul{
-        padding-inline-start: 0px;
-    }
         
     nav ul li a:hover{
             background-color: black;
             color: white;
     }
 
-    nav{
-        order: 4;
-        width: 100%;
-    }
-
-    nav button{
+    #menu-button{
         background-color: #9a7250;
         border-color: transparent;
+        border-radius: 5px;
+        margin: 3px;
     }
+
+
+    /*          Main             */
+
+    .main-area {
+        grid-template-areas:
+          "h"
+          "e"
+          "w"
+          "r"
+          "s";
+      }
 
     main section {
         background-color:#d5b495a4;
     }
- 
+
+
+    .hero{
+        
+        grid-area: h;
+    }
+        
+    .newRelease {
+        grid-area: r;
+    }
+
+    .Spotlight {
+        grid-area: s;
+    }
+
+    .spotlight3 {
+        display: none;
+    }
+
+
+
+     .join {
+        grid-area: j;
+    }
+
+    .event {
+        grid-area: e;
+    }
+
+    .weather {
+        grid-area: w;
+    }
+
+
+
+    section{
+        border-radius: 20px;
+        border-color: transparent;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 5px;
+    }
+
+/*  
     .spotlight1, .spotlight2 {
         border-style: ridge;
         border-color: black;
@@ -154,18 +185,15 @@ body{
         flex-direction: column;
         text-align: center;
         padding: 20px;
-    }
+    } */
 
     .spotlight3 {
         display: none;
     }
 
-    section{
-        border-radius: 20px;
-        border-color: transparent;
-    }
 
-    /* .join {
+
+     .join {
         display: none;
     }
 
@@ -179,12 +207,19 @@ body{
     .site {
         text-decoration: none;
         color: white;
-    } */
+    } 
+
+
+
 
     footer {
         text-align: center;
         background-color: #D5B495;
         padding: 20px;
+    }
+
+    footer img{
+        width: 100px;
     }
 
     footer p {
