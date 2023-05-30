@@ -1,26 +1,22 @@
-function windchill(windspeed, temperature){
-    // Get the HTML elemnt to update
+function windchill(windspeed, temp){
 
-    const temperatureElt = document.querySelector("#temperature");
-    const windspeedElt = document.querySelector("#windspeed");
-    const windchillElt = document.querySelector("#windchill");
+    //Get HTML element to update
+const tempElement = document.querySelector("#temp");
+const windspeedElement  = document.querySelector("#wind-speed");
+const windchillElement = document.querySelector("#wind-chill");
 
-    //Calculate the Windchill, if applicable
-    let windchillMsg = "N/A";
-
-    if(windchill >= 3.0 && temperature <= 50){
-
-        chillFactor = Math.pow(windspeed, 0.16);
-        windchillamt = Math.round(35.74 + (0.6215 * temperature) - (35.75 * chillFactor) + (0.4275 * temperature * chillFactor));
-        windchillMsg = `$(windchillamt)`;
+    //Calculate windchill, if applicable
+    let windchillmsg = "N/A";
+    if (windspeed > 3.0 && temp <= 50){
+        let chillfactor = Math.pow(windspeed, 0.16);
+        let windchillamt = Math.round(35.74 + (0.6215 * temp) - (35.75 * chillfactor) + (0.4275 * temp * chillfactor));
+        windchillmsg = `${windchillamt}`;
     }
-    
-    //Update the HTML elements with values
-
-    temperatureElt.textContent = temperature;
-    windspeedElt.textContent = windspeed;
-    windchillElt.textContent = windchillMsg;
+    //Update HTML element with values
+    tempElement.textContent = temp;
+    windspeedElement.textContent = windspeed;
+    windchillElement.textContent = windchillmsg;
 }
 
-//Call the windchill function with placeholder values
-windchill(5,5)
+//call windchill
+windchill(5, 45);

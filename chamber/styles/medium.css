@@ -5,8 +5,12 @@ body{
 }
 
 /* Media Query for small devices */
-@media screen and (max-width: 850px) {
-    
+@media screen and (max-width: 990px) {
+
+    .content{
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
     header{
         background-color: #D5B495;
         padding: 3px;
@@ -37,8 +41,7 @@ body{
         border-radius: 10px;
     }
 
-    .socialMedia,
-    .links {
+    .socialMedia {
       display: flex;
       align-items: center;
       gap: 5px;
@@ -49,13 +52,16 @@ body{
         border: 2px solid black;
         text-align: center;
         margin: 20px;
-        padding: 15px;
+        
         border-radius: 20px;
     }
 
     /*       HAMBURGER MENU        */
     #navbar{
-        display: none;
+        display: flex;
+        flex-direction: column;
+        float:inline-end    
+        
     }
     
     #navbar.active{
@@ -117,6 +123,7 @@ body{
         border-color: transparent;
         border-radius: 5px;
         margin: 3px;
+        display: block;
     }
 
 
@@ -190,7 +197,7 @@ body{
     }
     .site {
         text-decoration: none;
-        color: white;
+        color: black;
     } 
 
     .event {

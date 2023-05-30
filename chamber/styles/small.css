@@ -5,7 +5,7 @@ body{
 }
 
 /* Media Query for small devices */
-@media screen and (max-width: 450px){
+@media screen and (max-width: 600px){
    
     header{
         background-color: #D5B495;
@@ -21,7 +21,7 @@ body{
 
     .image-logo{
         order: 0;
-        width: 100px;
+        width: 200px;
         margin: 5px;
         border-radius: 20px;
     }
@@ -124,11 +124,11 @@ body{
 
     .main-area {
         grid-template-areas:
-          "h"
-          "e"
-          "w"
-          "r"
-          "s";
+          "h h"
+          "e e"
+          "w w"
+          "r r"
+          "s s";
       }
 
     main section {
@@ -206,25 +206,51 @@ body{
     }
     .site {
         text-decoration: none;
-        color: white;
+        color: black;
     } 
-
 
 
 
     footer {
         text-align: center;
         background-color: #D5B495;
-        padding: 20px;
+
     }
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 
     footer img{
-        width: 100px;
+        width: 200px;
     }
 
     footer p {
         margin: 0;
         padding: 5px;
     }
+
+
+    footer div {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .footer-main{
+        display: flex;
+        /* align-items: center; */
+        text-align: center;
+        /* justify-content: center; */
+        flex-direction: column;
+
+    }
+
+    .main-info-footer{
+        text-align: center;
+    }
+
+
+
+
         
 } 
