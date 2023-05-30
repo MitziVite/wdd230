@@ -124,17 +124,26 @@ body{
     main section {
         background-color:#d5b495a4;
     }
-    .hero{ 
+    /* .hero{ 
         grid-area: h;
         padding: 0;
-        position: relative; 
-         
-    }
+        position: relative;  
+            display: flex;
+            align-items: center;
+            justify-content: center;         
+    } */
+    .hero {
+        grid-area: h;
+        padding: 0;
+        position: relative;
+        background-size: cover;
+      }
 
-    .heroimage {
+    .heroImage {
         height: 100%;
         width: 100%;
-    }
+        object-fit: cover;
+      }
     .hero-title {
         position: absolute;
         top: 1%;
@@ -215,12 +224,22 @@ body{
  
     .spotlight1, .spotlight2, .spotlight3 {
         border-style: ridge;
-        border-color: black;
+        border-color: rgba(0, 0, 0, 0.042);
+        border-radius: 20px;
+        
+        margin: 10px;
         display: flex;
         flex-direction: column;
         text-align: center;
-        font-size: 12px;
+        
         padding: 2px;
+    }
+
+    .spotlight1 h2, .spotlight2 h2, .spotlight3 h2{
+        font-size: 20px;
+    }
+    .spotlight1 p, .spotlight2 p, .spotlight3 p{
+        font-size: 15px;
     }
 
 

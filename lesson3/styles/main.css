@@ -53,7 +53,7 @@ ul li{
     color: var(--accent-color);
 } 
 /* Hamburger menu */
-#navbar{
+/* #navbar{
     display: none;
 }
 
@@ -74,7 +74,7 @@ ul li{
 }
 #menu-close.active{
     display: block;
-}
+} */
 
 h2{
     font-family: var(--main-font);
@@ -139,6 +139,4 @@ footer{
     font-size: 1.3rem;
 }
 
-/* #menu-button{
-    display: none;
-} */
+
