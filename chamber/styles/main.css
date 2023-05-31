@@ -15,11 +15,11 @@ body{
     }
 
     header .content {
-        display: flex;
+        display: grid;
+        grid-template-columns: 250px auto auto auto;
+        grid-template-rows: 1fr;
         align-items: center;
-        justify-content: space-between;
         background-color: #D5B495;
-        margin-right: 50px;
     }
 
     .image-logo{

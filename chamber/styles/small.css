@@ -13,7 +13,7 @@ body{
     }
 
     header .content {
-        display: flex;
+
         align-items: center;
         justify-content: space-between;
         background-color: #D5B495;
@@ -206,7 +206,7 @@ body{
     }
     .site {
         text-decoration: none;
-        color: black;
+        color: ba;
     } 
 
 
