@@ -38,7 +38,6 @@ body{
         width: 35px;
         margin: auto 2px;
         border-radius: 10px;
-    
     }
 
     .socialMedia, .links {
@@ -242,6 +241,11 @@ body{
         font-size: 15px;
     }
 
+    .Spotlight img{
+        width: 40%;
+        margin: auto;
+
+    }
 
     .location {
         text-decoration: none;
