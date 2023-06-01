@@ -190,6 +190,11 @@ body{
     .spotlight3 {
         display: none;
     }
+    .Spotlight img{
+        width: 40%;
+        margin: auto;
+
+    }
 
 
 

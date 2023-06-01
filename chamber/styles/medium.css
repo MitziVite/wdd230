@@ -171,6 +171,11 @@ body{
     .Spotlight {
         grid-area: s;
     }
+    .Spotlight img{
+        width: 40%;
+        margin: auto;
+
+    }
  
     /* .spotlight1, .spotlight2 {
         border-style: ridge;
