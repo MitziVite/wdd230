@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce">
+    <title>CDMX Chamber of Commerce</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/small.css">
+    
+    
+    <link rel="icon" href="./images/icono.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="./scripts/date.js" defer></script>
+    <script src="./scripts/main.js" defer></script>
+
+
+    <script src="./scripts/windchill.js" defer></script>
+    <script src="https://kit.fontawesome.com/436d78fe38.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <header>
+        <div class="content">
+            <img src="./images/logo.webp" alt="logo" class="image-logo">
+        <div class="title">
+            <h1>CDMX Chamber of Commerce</h1>
+        </div>
+        
+        <div class = "socialMedia">
+            <a href="#"><img src="./images/facebookLogo.png" alt="facebook logo"></a>
+            <a href="#"><img src="./images/linkedinLogo.png" alt="linkedin logo"></a>
+        </div>
+        <button id="menu-button">
+            <span class="active" id="menu-open">&equiv;</span>
+            <span id="menu-close">X</span>
+        </button>  
+        <nav>
+        
+            <ul  id="navbar" >
+                <li class="active"><a href="./index.html">Home</a></li>
+                <li><a href="./index.html" class="nav-link">Discover</a></li>
+                <li><a href="./index.html" class="nav-link">Directory</a></li>
+                <li><a href="./index.html" class="nav-link">Join</a></li>
+                <li><a href="./index.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+
+        </div>
+    
+    <div class="date">
+        <p class="lastUpdated"><span id="date"></span></p>
+    </div>
+    <div id="meet-greet">
+        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    </div>
+    </header>
+        
+    <main>
+
+        <section>
+            <img src="./images/cdmx1.jpeg" alt="">
+            <div>
+                <h2>Population</h2>
+                <p>The Mexican capital has over 9 million inhabitants and more than 21 million 
+                    in its metropolitan area, making it one of the most populous cities in the world (2021).</p>
+            </div>
+        </section>
+
+        <section>
+            <img src="./images/cdmx3.jpeg" alt="">
+            <div>
+                <h2>Tourism</h2>
+                <p>
+                    Mexico City is a highly touristic destination, attracting millions of 
+                    visitors each year. In 2019, the city welcomed over 14 million
+                    international tourists, generating an estimated revenue of $3.6 billion
+                    USD. With its rich cultural heritage, iconic landmarks like the Palacio 
+                    de Bellas Artes and the ancient ruins of Teotihuacan, and vibrant culinary
+                    scene, Mexico City offers a diverse and immersive experience for travelers 
+                    from around the world.</p>
+            </div>
+        </section>
+
+        <section>
+            <img src="./images/mexican-restaurant.jpeg" alt="">
+            <div>
+                <h2>Food</h2>
+                <p>
+                    Mexico City boasts an incredible variety of culinary delights.
+                    From street food stalls offering mouthwatering tacos and tamales 
+                    to upscale restaurants serving gourmet Mexican cuisine, the city 
+                    caters to all tastes. With regional specialties like mole, chiles 
+                    en nogada, and street snacks like elote and churros, food lovers 
+                    can indulge in a gastronomic adventure like no other.</p>
+            </div>
+        </section>
+
+        <section>
+            <img src="./images/cdmx4.webp" alt="">
+            <div>
+                <h2>Historical places</h2>
+                <p>
+                    The architecture in Mexico City holds great 
+                    significance, supported by impressive statistical data.
+                    The city boasts over 1,500 buildings classified as historical
+                    and cultural heritage sites. Additionally, there are estimated 
+                    to be more than 6,000 constructions declared as historical monuments.
+                    These figures demonstrate the value placed on the preservation and 
+                    appreciation of architecture in Mexico City.</p>
+            </div>
+        </section>
+       
+    </main>
+
+    <footer>
+        <div>
+            <div  class="footer-main">
+                <div class="img-footer">
+                    <img src="./images/logo.webp" class="logo-footer" alt="Chamber of Commerce CDMX logo" >
+                </div>
+                <div class="main-info-footer">
+                    <h3 class="footer-title">CDMX Chamber of Commerce</h3>
+                    <p class="address">C. Ote. 158 225, Moctezuma 2da Secc, Venustiano Carranza, 15530 Ciudad de México, CDMX, Mexico</p>
+                </div>
+                <div class="more-info-footer">
+                    <p><a href="./index.html" class="site">info@cdmxchamberofcommerce.com</a></p>
+                    <p class="phone">+1 2332349043</p>
+                    <i class="fa fa-map-marker" style="color: #b91313;"></i>
+                    <a class="location-link" href="https://www.google.com/maps/place/Deportivo+Moctezuma/@19.4356287,-99.1080874,15.41z/data=!4m15!1m8!3m7!1s0x85d1fc060f789893:0xc41374139d21546b!2sVenustiano+Carranza,+Mexico+City,+CDMX,+Mexico!3b1!8m2!3d19.4306069!4d-99.0949899!16zL20vMDI0czdk!3m5!1s0x85d1fc00966ca107:0x9f494c9abd2147a9!8m2!3d19.4336175!4d-99.0973849!16s%2Fg%2F11cm3yxn7l?entry=ttu">Location Map</a>
+                </div>
+            </div>
+            <hr>
+            <p class="copy">&copy; <span id="currentyear"></span>CDMX Chamber of Coomerce  |  Mitzi Vite  |  WDD 230 Project  |  Last Modification: <span id="date2"></span></p>
+            
+            
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    
+</body>
+</html>
+
+
