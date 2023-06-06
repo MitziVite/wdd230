@@ -13,10 +13,10 @@
     
     <link rel="icon" href="./images/icono.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="./scripts/lazy-loading.js" defer></script>
     <script src="./scripts/date.js" defer></script>
     <script src="./scripts/main.js" defer></script>
-
-
+   <script src="./scripts/local-storage.js" defer></script>
     <script src="./scripts/windchill.js" defer></script>
     <script src="https://kit.fontawesome.com/436d78fe38.js" crossorigin="anonymous"></script>
 
@@ -60,9 +60,12 @@
     </header>
         
     <main>
+        <h1>It has been <span id='days-since-visit'></span> days since your last visit.</h1>
 
-        <section>
-            <img src="./images/cdmx1.jpeg" alt="">
+        <section class="discover-card">
+            <picture>
+                <img src="./images/placeholder.png" data-src="./images/cdmx1.jpeg" alt="This is an image related to the population of Mexico City" >
+            </picture>
             <div>
                 <h2>Population</h2>
                 <p>The Mexican capital has over 9 million inhabitants and more than 21 million 
@@ -70,8 +73,10 @@
             </div>
         </section>
 
-        <section>
-            <img src="./images/cdmx3.jpeg" alt="">
+        <section class="discover-card">
+            <picture>
+                <img src="./images/placeholder.png" data-src="./images/cdmx3.jpeg" alt="This image demonstrates the tourism in Mexico" >
+            </picture>
             <div>
                 <h2>Tourism</h2>
                 <p>
@@ -85,8 +90,10 @@
             </div>
         </section>
 
-        <section>
-            <img src="./images/mexican-restaurant.jpeg" alt="">
+        <section class="discover-card">
+            <picture>
+                <img src="./images/placeholder.png" data-src="./images/mexican-restaurant.jpeg" alt="This image shows the variety of food in cdmx" >
+            </picture>
             <div>
                 <h2>Food</h2>
                 <p>
@@ -99,8 +106,10 @@
             </div>
         </section>
 
-        <section>
-            <img src="./images/cdmx4.webp" alt="">
+        <section class="discover-card">
+            <picture>
+                <img src="./images/placeholder.png" data-src="./images/cdmx4.webp" alt="This image shows" >
+            </picture>
             <div>
                 <h2>Historical places</h2>
                 <p>
@@ -113,6 +122,22 @@
                     appreciation of architecture in Mexico City.</p>
             </div>
         </section>
+        <section class="discover-card">
+            <picture>
+                <img src="./images/placeholder.png" data-src="./images/cdmx5.jpeg" alt="This image shows" >
+            </picture>
+            <div>
+                <h2>Age Distribution</h2>
+                <p>
+                    The age distribution in Mexico City (CDMX) varies, with the following approximate statistics:
+                    Children (0-14 years): Around 22% of the population.
+                    Young adults (15-24 years): Approximately 17% of the population.
+                    Adults (25-64 years): Roughly 54% of the population.
+                    Seniors (65 years and older): About 7% of the population.
+                    These statistics provide a general overview of the age distribution in Mexico City, highlighting the presence of different age groups within its population.</p>
+            </div>
+        </section>
+    </div>
        
     </main>
 
@@ -137,7 +162,6 @@
             <p class="copy">&copy; <span id="currentyear"></span>CDMX Chamber of Coomerce  |  Mitzi Vite  |  WDD 230 Project  |  Last Modification: <span id="date2"></span></p>
             
             
-        </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     
