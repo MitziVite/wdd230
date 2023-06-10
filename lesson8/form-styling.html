@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+
+    <style>
+        main{
+            display: flex;
+        }
+        section{
+            width: 50%;
+            margin: 1rem;
+            padding: 1rem;
+            border: 1px solid black;
+            max-width: 400px;
+        }
+        label{
+            display: block;
+            font-size: 12px;
+        }
+        input{
+            display: block;
+            margin-bottom: .5rem ;
+            padding: .5rem;
+        }
+        textarea{
+            display: block;
+        }
+        .myradio{
+            display: inline;
+            margin: 0px 5px 0px 0px;
+        }
+        #mysubmit{
+            font-size: 1.5rem;
+            background-color: limegreen;
+            color: yellow;
+        }
+        @media(max-width:800px){
+            main{
+                display: block;
+            }
+            .section{
+                width:100px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <form method="GET" action="page2.html">
+                <label>First Name <input type="text" name="fname" id="Your first name" placeholder="First Name" value="" size="30" maxlength="30" required></label>
+                <label>Last Name <input type="text" name="fname" id="Your first name" placeholder="Last Name" value="" size="30" maxlength="30" required></label>
+                <p>Temperature</p>
+                <label><input class="myradio" name="temp" type="radio" value="hot">Hot</label>
+                <label><input class="myradio" name="temp" type="radio" value="warm">Warm</label>
+                <label><input class="myradio" name="temp" type="radio" value="cold">Cold</label>
+                <label>Description <textarea name="description" cols="40" rows="5"></textarea></label>
+                <input type="submit" id="mysubmit" name="go" value="Go and Do!">
+            </form>
+        </section>
+        <section>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis consectetur veniam delectus? Et necessitatibus, rem adipisci veniam hic alias quisquam dolorem soluta, est ipsum iusto sed iste dolor voluptates velit.
+        </section>
+    </main>
+    
+</body>
+</html>

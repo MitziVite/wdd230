@@ -259,6 +259,9 @@ body{
         text-align: center;
     }
 
+    .discover img:hover{
+        filter: saturate(0%)
+    }
 
 
 

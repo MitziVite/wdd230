@@ -369,3 +369,10 @@ body{
         border-radius: 20px;
         margin: 10px 20%;
     }
+
+    .discover-card img:hover{
+        width: 60%;
+        border-radius: 20px;
+        margin: 10px 20%;
+        filter: saturate(50%)
+    }
