@@ -208,6 +208,21 @@ body{
     }
 
 
+    /* Join page */
+    .join-page{
+        display: flex;
+    }
+
+    .join-section{
+        margin: 0 auto;
+        padding: 0rem 2rem;
+        border: 1px solid black;
+        max-width: 38%;
+    }
+    textarea{
+        width: 96%;
+    }
+
 
 
     footer {

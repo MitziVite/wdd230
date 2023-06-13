@@ -263,6 +263,16 @@ body{
         filter: saturate(0%)
     }
 
+    .join-page{
+        display: block;
+    }
+
+    .join-section{
+        margin: 7px;
+        padding: 1rem 7rem;
+        border: 1px solid black;
+        max-width: 300px;
+    }
 
 
         

@@ -124,14 +124,7 @@ body{
     main section {
         background-color:#d5b495a4;
     }
-    /* .hero{ 
-        grid-area: h;
-        padding: 0;
-        position: relative;  
-            display: flex;
-            align-items: center;
-            justify-content: center;         
-    } */
+
     .hero {
         grid-area: h;
         padding: 0;
@@ -304,7 +297,7 @@ body{
         position: relative;
     }
 
-
+    /* Discovery page */
     .weather{
         display: grid;
         grid-template-columns: repeat(4, 2fr);
@@ -375,4 +368,53 @@ body{
         border-radius: 20px;
         margin: 10px 20%;
         filter: saturate(50%)
+    }
+
+
+    /* Join page */
+    .join-page{
+        display: flex;
+    }
+
+    .join-section{
+        margin: 0 auto;
+        padding: 1rem 7rem;
+        border: 1px solid black;
+        max-width: 25%;
+    }
+    /* .first-section{
+        margin-right: 2px;
+    } */
+    label{
+        display: block;
+        font-size: 15px;
+        padding: 5px;
+    }
+    input{
+        display: block;
+        margin-bottom: .5rem ;
+        padding: .5rem;
+    }
+
+    textarea{
+        display: block;
+    }
+    .myradio{
+        display: inline;
+        margin: 0px 5px 0px 0px;
+    }
+    .mysubmit{
+        font-size: 1.5rem;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        padding: 2% 3%;
+        box-shadow: 5px 10px 26px -10px rgba(0,0,0,0.69);
+    }
+    .thankyou-section{
+        margin: 15px;
+    }
+
+    .thankyou-title{
+        text-align: center;
     }
