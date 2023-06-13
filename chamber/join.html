@@ -9,15 +9,10 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/medium.css">
     <link rel="stylesheet" href="./styles/small.css">
-    
-    
     <link rel="icon" href="./images/icono.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <script src="./scripts/date.js" defer></script>
     <script src="./scripts/main.js" defer></script>
-
-
-    <script src="./scripts/windchill.js" defer></script>
     <script src="https://kit.fontawesome.com/436d78fe38.js" crossorigin="anonymous"></script>
 
 </head>
@@ -74,6 +69,7 @@
                 <label><input class="myradio" name="temp" type="radio" value="cold">Silver Membership</label>
                 <label><input class="myradio" name="temp" type="radio" value="cold">Gold Membership</label>
                 <label>Description of your business <textarea name="description" cols="40" rows="5"></textarea></label>
+                <input type="hidden" name="todaysdate" id="hiddendate" value="">
                 <input type="submit" class="mysubmit" name="go" value="Submit">
             </form>
         </section >
@@ -132,7 +128,11 @@
         </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-    
+    <script>
+        var dia = new Date();
+        var dateinput = document.querySelector("#hiddendate");
+        dateinput.value = dia.toLocaleDateString();
+    </script>
 </body>
 </html>
 
