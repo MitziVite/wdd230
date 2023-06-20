@@ -88,6 +88,7 @@ body{
     nav ul li .active{
         background-color: #000000;
         color: white;
+        /* border-radius: 15px; */
     }
 
     nav a {
@@ -97,12 +98,14 @@ body{
         font-weight: 600;
         padding: 16px 20px;
         text-decoration: none;
+        margin: 2px;
        
       }
 
     nav a:hover{
         background-color: black;
         color: white;
+        /* border-radius: 15px; */
     }
 
     nav li{
