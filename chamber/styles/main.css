@@ -418,3 +418,25 @@ body{
     .thankyou-title{
         text-align: center;
     }
+
+    /* .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .cards section{
+        border: 2px solid black;
+        margin: 1rem;
+    }
+
+    .cards img{
+        width: 100%;
+    }
+
+    .cards{
+        display: block;
+    }
+
+    .discover-card{
+        display: flex;
+    } */
