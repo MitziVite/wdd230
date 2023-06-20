@@ -419,24 +419,110 @@ body{
         text-align: center;
     }
 
-    /* .cards {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    }
 
-    .cards section{
-        border: 2px solid black;
-        margin: 1rem;
-    }
 
-    .cards img{
+    .directory-main{
         width: 100%;
     }
-
-    .cards{
-        display: block;
+    #directory-selector{
+        background-color: #D6B495;
+        width: 97%;
+        text-align: center;
+        margin: 0 0 0 0.5%;
+        border-radius: 0%;
     }
 
-    .discover-card{
-        display: flex;
-    } */
+    .directory-main section{
+        background-color: white;
+        border: none;
+    }
+
+
+    
+    #directory-selector button{
+        padding: 1rem;
+        margin: .5rem;
+        border-radius: 5px;
+        background-color: #D6B495;
+        border: 1.5px black solid;
+    }
+    
+    #directory-selector button.active{
+        background-color: black;
+        color: white;
+    }
+    
+    /* Cards view */
+
+    
+    .cards-directory{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        justify-items: center;
+    }
+    
+    .cards-directory section{
+        text-align: center;    
+        border: 2px solid rgb(0, 0, 0);    
+        width: 85%;
+        background-color: #D6B495;
+        padding: 1rem;
+        margin: .5rem;
+    }
+    
+    .cards-directory .gold-member{
+        box-shadow: 10px 8px 10px rgba(225, 165, 14, 0.369);
+    }
+    .cards-directory .silver-member{
+        box-shadow: 10px 8px 10px rgba(143, 137, 123, 0.77);
+    }
+    .cards-directory .bronze-member{
+        box-shadow: 10px 8px 10px rgba(247, 112, 49, 0.395);
+    }
+    .cards-directory .non-member{
+        box-shadow: 10px 8px 10px rgba(105, 227, 213, 0.395);
+    }
+
+    .cards-directory a{
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        padding: 10px 25px;
+        border-radius: 10px;
+
+    }
+    
+    /* List View */
+    
+    .directory-list{    
+        display: grid;
+        justify-items: center;   
+        padding: 1rem;    
+    }
+    
+    .directory-list section img{
+        display: none;
+    }
+
+    .cards-directory img{
+        width: 80%;
+    }
+    
+    .directory-list section {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        width: 70%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .directory-list section:nth-child(odd) {
+        background-color: #c7956c;
+    }
+    
+    .directory-list section:nth-child(even) {
+        background-color: #D6B495;
+    }
+    
+    
+    
