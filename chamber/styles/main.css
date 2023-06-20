@@ -85,6 +85,11 @@ body{
         flex-direction: row;
     }
 
+    nav ul li .active{
+        background-color: #000000;
+        color: white;
+    }
+
     nav a {
         float: left;
         font-size: 15px;
