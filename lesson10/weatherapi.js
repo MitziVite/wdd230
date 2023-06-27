@@ -9,6 +9,10 @@ const weatherURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&l
 
 function displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
+    weatherIcon.src = "http://openweathermap.org/img/wn/"
+    + `${weatherData.weather[0].icon}@2x.png`;
+    captionDesc.innerText = weatherData.weather[0].description;
+    return true;
 }
 
 async function apiFetch(url) {

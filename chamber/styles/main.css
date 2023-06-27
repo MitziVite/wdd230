@@ -118,6 +118,10 @@ body{
 
     /*          Main             */
 
+    .join-a{
+        text-decoration: none;
+        color: white;
+    }
     .main-area {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
