@@ -183,16 +183,6 @@ body{
         margin: 5px;
     }
 
-/*  
-    .spotlight1, .spotlight2 {
-        border-style: ridge;
-        border-color: black;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
-    } */
-
     .spotlight3 {
         display: none;
     }

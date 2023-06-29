@@ -5,7 +5,7 @@ const captionDesc = document.querySelector("figcaption");
 const lat = 43.82;
 const lon = -111.79;
 const appid = 'aec8372b3538aac5be3fb27c66198b48'
-const weatherURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${appid}`
+const weatherURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${appid}&units=imperial`
 
 function displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
