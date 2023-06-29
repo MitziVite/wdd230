@@ -274,6 +274,14 @@ body{
         max-width: 300px;
     }
 
+    .directory-list .cards-directory{
+        width: fit-content;        
+    }
+
+    .cards-directory p{
+        margin-left: 5px;
+    }
+
 
 
         
