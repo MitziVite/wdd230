@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce">
+    <title>CDMX Chamber of Commerce</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/small.css">
+    
+    
+    <link rel="icon" href="./images/icono.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="./scripts/date.js" defer></script>
+    <script src="./scripts/main.js" defer></script>
+
+
+    <script src="./scripts/windchill.js" defer></script>
+    <script src="https://kit.fontawesome.com/436d78fe38.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <header>
+        <div class="content">
+            <img src="./images/logo.webp" alt="logo" class="image-logo">
+        <div class="title">
+            <h1>CDMX Chamber of Commerce</h1>
+        </div>
+        
+        <div class = "socialMedia">
+            <a href="#"><img src="./images/facebookLogo.png" alt="facebook logo"></a>
+            <a href="#"><img src="./images/linkedinLogo.png" alt="linkedin logo"></a>
+        </div>
+        <button id="menu-button">
+            <span class="active" id="menu-open">&equiv;</span>
+            <span id="menu-close">X</span>
+        </button>  
+        <nav>
+        
+            <ul id="navbar" >
+                <li><a href="./index.html"  class="active">Home</a></li>
+                <li><a href="./discover.html" class="nav-link">Discover</a></li>
+                <li><a href="./directory.html" class="nav-link">Directory</a></li>
+                <li><a href="./join.html" class="nav-link">Join</a></li>
+                <li><a href="./index.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+
+        </div>
+    
+    <div class="date">
+        <p class="lastUpdated"><span id="date"></span></p>
+    </div>
+    <div id="meet-greet">
+        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    </div>
+    </header>
+        
+    <main class="contact-page ">
+        <section class="contact-section one-contact">
+            <div class="contact-div">
+            <h1>Contact Form</h1>
+            <p>* Indicates required field</p>
+            <form>
+
+                <label>Name* <input type="text" name="fname" id="fname" value="" placeholder="Your Name" size="30" maxlength="30" required></label>
+                <label>Email* <input type="email" name="email" id="email" placeholder="email@yahoo.com" value="" size="30" maxlength="30" required></label>
+                <label>Question/Concern* <textarea name="description" cols="40" rows="5" required></textarea></label>
+                <input type="submit" class="mysubmit" name="go" value="Submit">
+            </form>
+            <div></div>
+        </section >
+        
+        <section class="contact-section more-info-contact two-contact">
+            <h1>Our Location:</h1>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.508696988101!2d-99.09995982515095!3d19.433622540648926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fc0092d584db%3A0xe8db492b8355f1cd!2sC.%20Ote.%20158%20225%2C%20Moctezuma%202da%20Secc%2C%20Venustiano%20Carranza%2C%2015530%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX%2C%20Mexico!5e0!3m2!1sen!2sus!4v1688238415125!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section class="contact-section three-contact">
+            <div class="photo-contact"> 
+                
+                <img src="./images/office.jpeg" alt="">
+             </div>
+            <div class="contact-div info-contact">
+            <h1>Contact us</h1>
+            <h2>Address</h2>
+            <p >C. Ote. 158 225, Moctezuma 2da Secc, Venustiano Carranza, 15530 Ciudad de México, CDMX, Mexico</p>
+            <h2>Phone</h2>
+            <p class="phone">+1 2332349043</p>
+            <h2>Email</h2>
+            <p><a href="./index.html" class="site">info@cdmxchamberofcommerce.com</a></p>
+            <div class = "socialMediad socialMedia">
+                <a href="#"><img src="./images/facebookLogo.png" alt="facebook logo"></a>
+                <a href="#"><img src="./images/linkedinLogo.png" alt="linkedin logo"></a>
+                
+            </div>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <div  class="footer-main">
+                <div class="img-footer">
+                    <img src="./images/logo.webp" class="logo-footer" alt="Chamber of Commerce CDMX logo" >
+                </div>
+                <div class="main-info-footer">
+                    <h3 class="footer-title">CDMX Chamber of Commerce</h3>
+                    <p class="address">C. Ote. 158 225, Moctezuma 2da Secc, Venustiano Carranza, 15530 Ciudad de México, CDMX, Mexico</p>
+                </div>
+                
+                <div class="more-info-footer">
+                    <p><a href="./index.html" class="site">info@cdmxchamberofcommerce.com</a></p>
+                    <p class="phone">+1 2332349043</p>
+                    <i class="fa fa-map-marker" style="color: #b91313;"></i>
+                    <a class="location-link" href="https://www.google.com/maps/place/Deportivo+Moctezuma/@19.4356287,-99.1080874,15.41z/data=!4m15!1m8!3m7!1s0x85d1fc060f789893:0xc41374139d21546b!2sVenustiano+Carranza,+Mexico+City,+CDMX,+Mexico!3b1!8m2!3d19.4306069!4d-99.0949899!16zL20vMDI0czdk!3m5!1s0x85d1fc00966ca107:0x9f494c9abd2147a9!8m2!3d19.4336175!4d-99.0973849!16s%2Fg%2F11cm3yxn7l?entry=ttu">Location Map</a>
+                </div>
+            </div>
+            <hr>
+            <p class="copy">&copy; <span id="currentyear"></span>CDMX Chamber of Coomerce  |  Mitzi Vite  |  WDD 230 Project  |  Last Modification: <span id="date2"></span></p>
+            
+            
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    
+</body>
+</html>
+
+

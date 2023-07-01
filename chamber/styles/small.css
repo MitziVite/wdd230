@@ -153,6 +153,7 @@ body{
 
     .Spotlight {
         grid-area: s;
+        display: block;
     }
 
     .spotlight3 {
@@ -262,6 +263,18 @@ body{
         padding: 1rem 7rem;
         border: 1px solid black;
         max-width: 300px;
+    }
+
+
+
+    .contact-section{
+        margin: 7px;
+        padding: 1rem 7rem;
+        border: 1px solid black;
+        max-width: 300px;
+    }
+    .contact-page{
+        display: block;
     }
 
     .directory-list .cards-directory{

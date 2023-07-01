@@ -170,7 +170,11 @@ body{
 
     .Spotlight {
         grid-area: s;
+        display: flex;
     }
+
+
+   
     .Spotlight img{
         width: 10%;
         margin: auto;
@@ -213,6 +217,12 @@ body{
         text-align: center;
     }
 
+    .three-contact{
+        display: block;
+        width: 95%;
+        
+    }
+
 
     /* Join page */
     .join-page{
@@ -225,6 +235,27 @@ body{
         border: 1px solid black;
         max-width: 38%;
     }
+
+    .contact-section {
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-gap: 10px; 
+    }
+    .one-contact,
+    .two-contact {
+        width: 90%;
+    }
+    .contact-section p {
+        font-size: 14px;
+        
+    }
+    .contact-div{
+        margin-left: 3%;
+    }
+    .info-contact{
+        margin: 10px;
+    }
+
     textarea{
         width: 96%;
     }
