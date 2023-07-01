@@ -68,7 +68,7 @@
                     <img class="heroImage" src="./images/large-image.jpeg" alt="Hero image">
                 </picture>
                 <h2 class="hero-title">Welcome to CDMX</h2>
-                <button class="hero-button"><a class="join-a" href="./join.html">Join the Chamber</a></button>
+                <a class="join-a" href="./join.html"><button class="hero-button">Join the Chamber</button></a>
             </section>
 
 
@@ -88,13 +88,24 @@
             </div>
         </section>
 
-        <section class="weather">
-            <h2 class="weather-title">Weather</h2>
-            <img src="./images/rain.png" alt="rain image" class="weather-image">
-            <p class="temp"><span id="temp"></span>&deg;C</p>
-            <p class="weatherD">Rain</p>
-            <p class="windSpeed">Wind Speed: <span id="wind-speed"></span></p>
-            <p class="windChill">Wind Chill: <span id="wind-chill"></span></p>
+     <section class="weather">
+        <div class="weather-content">
+            <h2>Weather</h2>
+                <div class="weather-text">
+                    <figure>
+                        <img src="-" alt="" id="weather-icon">
+                        <p><span id="current-temp"></span> &deg;F</p>
+                        <figcaption></figcaption>
+                    </figure>    
+                    <hr>
+                    <p>Windspeed: <span id="windspeed"></span> kph</p>
+                    <p>Windchill: <span id="windchill"></span></p>
+                </div>
+            
+        </div>
+    </section>
+
+
         </section>
 
         <section class="newRelease">
@@ -134,7 +145,7 @@
                     </div>
         </section>
         <section class="join">
-            <button class="join-button"><a class="join-a" href="./join.html">Join Us!</a></button>
+            <a class="join-a" href="./join.html"><button class="join-button">Join Us!</button></a>
             <div>
             <h3>Join us and unlock endless opportunities at the Chamber of Commerce. Grow your network, expand your business, thrive together!"</h3>
             </div>

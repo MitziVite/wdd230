@@ -317,7 +317,19 @@ body{
     .weather{
         display: grid;
         grid-template-columns: repeat(4, 2fr);
+        /* margin: auto; */
     }
+
+    .weather-content{
+        text-align: center;
+    }
+
+    .weather-content hr{
+        border-color: rgba(0, 0, 0, 0.111);
+        background-color: rgba(0, 0, 0, 0.144);
+        padding:0.1px ;
+    }
+
     .weather-title{
         grid-row: 1;
         grid-column: 1/5;

@@ -205,6 +205,12 @@ body{
 
     .weather {
         grid-area: w;
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+    }
+
+    .weather-content{
+        text-align: center;
     }
 
 
