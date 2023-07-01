@@ -185,8 +185,11 @@ body{
         text-align: justify;
     }
 
-    .Spotlight {
+    .spotlightbox {
         grid-area: s;
+    }
+    .spotlightbox img{
+        width: 100%;
     }
 
      .join {

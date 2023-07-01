@@ -22,7 +22,7 @@
             "websiteURL" : "https://www.televisa.com/",
             "imageURL" : "./images/directory/televisa.jpeg",
             "membershipLevel" : "gold",
-            "adCopy" : ""
+            "adCopy" : "Experience the magic of entertainment with Televisa! Immerse yourself in captivating stories, groundbreaking shows, and unforgettable moments. From thrilling dramas to engaging reality TV, Televisa presents a world of limitless entertainment. Tune in and discover the ultimate TV experience that keeps you hooked. Watch Televisa and be captivated!"
         },
         {
             "name" : "windspeedmar",
@@ -45,8 +45,8 @@
             "phone": "(956) 599-4269",
             "websiteURL" : "https://www.instagram.com/pinateria_ramirez/?hl=en",
             "imageURL" : "./images/directory/pinatas.jpeg",
-            "membershipLevel" : "non profit",
-            "adCopy" : ""
+            "membershipLevel" : "silver",
+            "adCopy" : "Unleash the joy of piñatas at our Piñata Store! Explore a vibrant collection of colorful creations that bring life to any celebration. From traditional designs to custom-made masterpieces, find the perfect piñata to make your event unforgettable. Visit us and let the fiesta begin"
         },
         {
             "name" : "Grupo Elektra",
@@ -58,7 +58,7 @@
             "websiteURL" : "https://www.grupoelektra.com.mx/",
             "imageURL" : "./images/directory/elektra.jpeg",
             "membershipLevel" : "silver",
-            "adCopy" : ""
+            "adCopy" : "Electrify your world with Elektra! Discover the latest in cutting-edge technology, stylish home appliances, and irresistible deals. Experience convenience, innovation, and quality at Elektra!"
         },
         {
             "name" : "Liverpool",
@@ -82,7 +82,7 @@
             "websiteURL" : "https://www.pemex.com/Paginas/default.aspx",
             "imageURL" : "./images/directory/pemex.jpeg",
             "membershipLevel" : "gold",
-            "adCopy" : ""
+            "adCopy" : "Powering progress with Pemex, your trusted energy partner. Fueling innovation, sustainability, and a brighter future for all."
         },
         {
             "name" : "Grupo Aeroméxico",
@@ -106,7 +106,7 @@
             "websiteURL" : "https://pujol.com.mx/",
             "imageURL" : "./images/directory/pujol.jpeg",
             "membershipLevel" : "silver",
-            "adCopy" : ""
+            "adCopy" : "An extraordinary gastronomic experience that will delight your senses. Authentic flavors, quality ingredients, and a charming ambiance. Indulge yourself at Pujol!"
         }
     ]
 }
