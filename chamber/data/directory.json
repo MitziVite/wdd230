@@ -8,7 +8,7 @@
             "zip": "02300",
             "phone": "+52 55 1638 9027",
             "websiteURL" : "https://www.grupobimbo.com/",
-            "imageURL" : "./images/directory/bimbo.jpg",
+            "imageURL" : "./images/directory/bimbo.jpeg",
             "membershipLevel" : "non profit",
             "adCopy" : ""
         },
@@ -25,14 +25,14 @@
             "adCopy" : ""
         },
         {
-            "name" : "Contramar",
+            "name" : "windspeedmar",
             "street": "Calle de Durango 200, Roma Nte",
             "city": "Cuauhtémoc",
             "state": "CDMX",
             "zip": "06700",
             "phone": "+52 55 5514 3169",
             "websiteURL" : "https://www.contramar.com.mx/",
-            "imageURL" : "./images/directory/contramar.png",
+            "imageURL" : "./images/directory/contramar.jpeg",
             "membershipLevel" : "bronze",
             "adCopy" : ""
         },
@@ -80,7 +80,7 @@
             "zip": "11320",
             "phone": "+52 55 5543 8265",
             "websiteURL" : "https://www.pemex.com/Paginas/default.aspx",
-            "imageURL" : "./images/directory/pemex.jpg",
+            "imageURL" : "./images/directory/pemex.jpeg",
             "membershipLevel" : "gold",
             "adCopy" : ""
         },

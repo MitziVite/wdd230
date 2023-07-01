@@ -148,6 +148,7 @@ body{
         height: 100%;
         width: 100%;
         object-fit: cover;
+        border-radius: 15px;
       }
     .hero-title {
         position: absolute;
@@ -155,19 +156,21 @@ body{
         right: 20%;
         border-radius:5px;
         font-size: 40px;
-        background-color:#d5b49557;
+        background-color:#d5b495ba;
         padding: 7px;
+        border-radius: 8px;
     }
 
     .hero-button {
         position: absolute;
         top: 80%;
         right: 3%;
-        background-color: #000000;
+        background-color: black;
+        border-color: #000000;
         color: white;
         border-radius: 20px;
         padding: 1rem;
-        box-shadow: 5px 5px 5px #00000043;
+        box-shadow: 5px 5px 5px black;
     }
   
     
@@ -380,6 +383,13 @@ body{
         display: inline-block;
     }
 
+    .visit-days{
+        background-color: #D5B495
+    }
+    .visit-days h1{
+        font-size: 20px;
+        text-align: center;
+    }
 
     .discover-card{
         margin: auto 15% 1% 15% ;
