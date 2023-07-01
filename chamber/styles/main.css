@@ -194,7 +194,21 @@ body{
 
      .join {
         grid-area: j;
+        /* padding: auto; */
         text-align: justify;
+        
+    }
+    .join a{
+        width: 100%;
+    }
+
+    .join-st a{
+        margin-left: 10px;
+       
+    }
+    .join-st{
+        padding: 30px;
+        
     }
 
     .join button{
@@ -458,6 +472,15 @@ body{
     .thankyou-title{
         text-align: center;
     }
+
+    .join-spo{
+        background-color: #000000;
+        color: white;
+        padding: 2% 10%;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    
 
 
 
