@@ -241,6 +241,18 @@ body{
         grid-template-columns: 1fr; 
         grid-gap: 10px; 
     }
+
+    .info-contact{
+        right: -10px;
+    }
+
+    .contact-section .photo-contact{
+        width: 100%;
+    }
+
+    .contact-section img{
+        margin: 0 auto;
+    }
     .one-contact,
     .two-contact {
         width: 90%;
@@ -258,6 +270,10 @@ body{
 
     textarea{
         width: 96%;
+    }
+
+    .photo-contact{
+        width: 400px;
     }
 
 

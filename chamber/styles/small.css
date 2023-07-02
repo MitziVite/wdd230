@@ -272,6 +272,12 @@ body{
         padding: 1rem 7rem;
         border: 1px solid black;
         max-width: 300px;
+        display: block;
+    }
+
+    .photo-contact img{
+        top: -10px;
+        margin: 0 auto;
     }
     .contact-page{
         display: block;
