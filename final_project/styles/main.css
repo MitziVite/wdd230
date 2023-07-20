@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Passion+One&display=swap');
 
 :root{
-    --primaryColor:#0a87ad;
+    --primaryColor:#144656;
     --second-color: white;
     --third-color: black;
     --font: 'Montserrat';
@@ -108,11 +108,16 @@ nav li{
     transition: ease-in-out 3s;
     position: relative;
 }
+/* 
+.container-main-img{
+    background-color: #0a87ad;
+} */
 
 .container-main-img .box.box1{
     background: url(../images/summer-smoothiess-1608647526.jpeg);
     background-size:cover;
     position: relative;
+    z-index: 0;
 } 
 
 /* .container-main-img .box.box2{
@@ -124,7 +129,9 @@ nav li{
     background-position: bottom;
 }
 
-
+.\.hero-title{
+    background-color: #363c3e54;
+}
 .\.hero-title{
     position: absolute;
     top: 15%;
@@ -390,6 +397,7 @@ footer{
     color: var(--second-color);
     padding: 2%;
     font-size: large;
+    font-weight: bold;
 }
 
 
