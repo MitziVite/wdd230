@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/small.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="./scripts/main.js" defer loading="lazy"></script>
+    <script src="./scripts/fresh.js" defer loading="lazy"></script>
+    <script src="./scripts/confirmation.js" defer loading="lazy"></script>
+</head>
+<body>
+    <header>
+        <div class="content">
+            <div class="title">
+                <img src="./images/zalamero.png" alt="logo" class="image-logo">
+                <h1>Bountiful Foods</h1>
+            </div>
+
+            <button id="menu-button">
+                <span class="active" id="menu-open">&equiv;</span>
+                <span id="menu-close">X</span>
+            </button>  
+
+            <nav>
+                <ul id="navbar" >
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./fresh.html" class="nav-link">Fresh</a></li>
+                    <li><a href="./aboutus.html" class="nav-link">About Us</a></li>
+                </ul>
+            </nav>
+
+            <div class = "socialMedia">
+                <a href="#"><img src="./images/facebook.png" alt="facebook logo"></a>
+                <a href="#"> <img src="./images/instagram.png" alt="instagram logo"></a>
+                <a href="#"><img src="./images/pinterest.png" alt="pinterest logo"></a>  
+            </div>
+        </div>
+    </header>
+
+    <main class="fresh-m">
+        <div class="space-title">
+          <h1 class="menu-title">Fresh - Order Form</h1>
+        </div>
+        <form id="order-form" action="confirmation.html" method="post">
+          <label for="first_name">First Name:</label>
+          <input type="text" id="first_name" name="first_name" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required>
+      
+          <label for="fruit1">Select Fruit 1:</label>
+          <select id="fruit1" name="fruit1" required></select>
+      
+          <label for="fruit2">Select Fruit 2:</label>
+          <select id="fruit2" name="fruit2" required></select>
+      
+          <label for="fruit3">Select Fruit 3:</label>
+          <select id="fruit3" name="fruit3" required></select>
+      
+          <label for="special_instructions">Special Instructions:</label>
+          <textarea id="special_instructions" name="special_instructions"></textarea>
+      
+          <p>Payment will be received when the drink is picked up.</p>
+      
+          <input type="submit" value="Place Order">
+        </form>
+      
+      </main>
+      
+
+
+    <footer>
+        <p>&copy; Mitzi Vite | Bountiful Foods | 2023</p>
+        <p> Last Modification: <span id="date2"></span></p>
+        <div class = "socialMedia-f">
+            <a href="#"><img src="./images/facebook.png" alt="facebook logo"></a>
+            <a href="#"> <img src="./images/instagram.png" alt="instagram logo"></a>
+            <a href="#"><img src="./images/pinterest.png" alt="pinterest logo"></a>  
+        </div>
+    </footer>
+</body>
+</html>

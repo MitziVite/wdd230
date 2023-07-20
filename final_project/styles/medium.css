@@ -1,0 +1,137 @@
+@media screen and (max-width: 990px) { 
+    :root{
+        --primaryColor:#6DC5E0;
+        --second-color: white;
+        --third-color: black;
+    }
+ 
+    header .content {
+        display: grid;
+        grid-template-columns: 5fr 1fr;
+    }
+
+    .socialMedia {
+      display: none;
+    }
+
+    /*       HAMBURGER MENU        */
+    #navbar{
+        display: none;
+        flex-direction: column;
+    }
+    
+    #navbar.active{
+        display: flex;
+    }
+    
+    #menu-open{
+        display: none;
+    }
+    
+    #menu-open.active{
+        display: block;
+    }
+    
+    #menu-close{
+        display: none;
+    }
+
+    #menu-close.active{
+        display: block;
+    }
+    
+    header ul{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    nav{
+        width: 100%;
+        grid-column: 1/5;
+
+    }
+
+    nav ul{
+        padding-inline-start: 0px;
+    }
+
+    nav ul li{
+        list-style: none;
+        width: 100%;
+        text-align: center;
+        text-align: left;
+    }
+
+    nav ul li a{
+        width: 100%;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+        
+    nav ul li a:hover{
+            background-color: black;
+            color: white;
+    }
+
+    #menu-button{
+        background-color: var(--primaryColor);
+        border-color: transparent;
+        display: block;
+        margin: auto;
+    }
+
+    #menu-button:hover{
+        transform: rotate(180deg);
+        transition: transform 1s ease-in-out;
+    }
+
+    /*  MAIN  */
+
+    .\.hero-title{
+        position: absolute;
+        top: 15%;
+        left: 25%; 
+        text-align: center;
+        border-radius:5px;
+        font-size: 55px;
+        color: white;
+        padding: 7px;
+        border-radius: 8px;
+        font-family: 'Passion One';
+        line-height: 0.3;
+        letter-spacing: 2px;
+    }
+
+    .column-1{
+        flex: 40%;
+    }
+
+    .weather-card {
+        width: 20%;
+    }
+
+    /* Confirmation */
+
+    .grid-container {
+        display: block;
+    }
+
+    .more-inf-c{
+        margin-top: 4%;
+    }
+
+    .vertical-line{
+        display: none;
+    }
+
+    .last-container{
+        display: block;
+    }
+    .more{
+        padding: 0;
+    }
+
+}

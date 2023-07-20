@@ -1,0 +1,16 @@
+
+/* Write the CSS rule for a main element with the class attribute value of "three-col" that displays its content in three columns using CSS Grid. The first column should be limited to 250px. The second column takes up 2 times the remaining width available space and the last column takes up 1 times that available space (or, in other words, half of the second column).
+
+You are just writing the CSS rule for a main element as your answer to this question.
+
+The gap between the columns is 40 pixels and the child items are vertically aligned.
+
+Here is an example on the layout of this main element. Remember that you are NOT writing the content, just the CSS rule for the main element. */
+
+
+.three-col {
+    display: grid;
+    grid-template-columns: 250px minmax(0, 2fr) minmax(0, 1fr);
+    gap: 40px;
+    align-items: center;
+}

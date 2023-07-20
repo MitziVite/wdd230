@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Fruit</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/small.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
+    <script src="./scripts/main.js" defer loading="lazy"></script>
+    <script src="./scripts/weather.js" defer loading="lazy"></script>
+    <script src="./scripts/carrousel.js" defer loading="lazy"></script>
+    <script src="./scripts/fruits.js" defer loading="lazy"></script>
+    
+</head>
+<body>
+    <header>
+        <div class="content">
+            <div class="title">
+                <img src="./images/zalamero.png" alt="logo" class="image-logo">
+                <h1>Bountiful Foods</h1>
+            </div>
+
+            <button id="menu-button">
+                <span class="active" id="menu-open">&equiv;</span>
+                <span id="menu-close">X</span>
+            </button>  
+
+            <nav>
+                <ul id="navbar" >
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./fresh.html" class="nav-link">Fresh</a></li>
+                    <li><a href="./aboutus.html" class="nav-link">About Us</a></li>
+                </ul>
+            </nav>
+
+            <div class = "socialMedia">
+                <a href="#"><img src="./images/facebook.png" alt="facebook logo"></a>
+                <a href="#"> <img src="./images/instagram.png" alt="instagram logo"></a>
+                <a href="#"><img src="./images/pinterest.png" alt="pinterest logo"></a>  
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-main-img">
+            <div class="box box1"></div>
+            <div class=".hero-title">
+                <p>SIP THE JOY OF</p>
+                <p>BLENDED GOODNESS</p>
+            </div>
+        </div>
+        <div class="space-title">
+            <h1 class="menu-title">Menu</h1>
+        </div>
+        <div class="container-menu">
+            <div class="row">
+                <div class="column-1">
+                    <div class="column">
+                        <div>
+                            <img src="./images/strawberries.jpeg" alt="">
+                            <div class="texto">Strawberry</div>
+                            
+                        </div>
+                    </div>
+                    <div class="column-1">
+                        <div class="column">
+                            <img src="./images/kiwi.jpeg" alt="">
+                            <div class="texto">Kiwi</div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="column-1">
+                        <div class="column">
+                            <div>
+                            <img src="./images/apricot.jpeg" alt="">
+                        <div class="texto">Apricot</div>
+                    </div>
+                    </div>
+                    <div class="column-1">
+                        <div class="column">
+                            <img src="./images/oranges.jpeg" alt="">
+                            <div class="texto">Orange</div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="column-1">
+                        <div class="column">
+                            <div>
+                                <img src="./images/blueberry.jpeg" alt="">
+                                <div class="texto">Blueberry</div>
+                        
+                        </div>
+                    </div>
+                    <div class="column-1">
+                        <div class="column">
+                            <div>
+                                <img src="./images/limones.jpeg" alt="">
+                                <div class="texto">Lime</div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+                    <div class="column-1">
+                        <div class="column">
+                            <div>
+                            <img src="./images/pineapples.jpeg" alt="">
+                            <div class="texto">Pineapple</div>
+                        </div>
+                        
+                    </div>
+                    <div class="column-1">
+                        <div class="column">
+                            <img src="./images/grapes.jpeg" alt="">
+                            <div class="texto">Grape</div>
+                            
+                        </div>
+                    </div>
+                    <div class="column-1">
+                        <div class="column">
+                            <img src="./images/apples.jpeg" alt="">
+                            <div class="texto">Apple</div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>  
+            <div class="space-title">
+                <h1 class="menu-title">Smoothies</h1>
+            </div>
+
+            <div class="smoothie-list">
+                <ul>
+                  <li>
+                    <h3>Berry Blast</h3>
+                    <p>Ingredients: Strawberries, blueberries, banana, Greek yogurt, and orange juice.</p>
+                    <p>Price: $4.99</p>
+                  </li>
+                  <li>
+                    <h3>Tropical Paradise</h3>
+                    <p>Ingredients: Pineapple, mango, coconut, orange juice, and spinach.</p>
+                    <p>Price: $5.50</p>
+                  </li>
+                  <li>
+                    <h3>Green Machine</h3>
+                    <p>Ingredients: Spinach, cucumber, green apple, ginger, and lemon juice.</p>
+                    <p>Price: $5.25</p>
+                  </li>
+                  <li>
+                    <h3>Choco-Banana Delight</h3>
+                    <p>Ingredients: Banana, cocoa powder, peanut butter, almond milk, and ice.</p>
+                    <p>Price: $4.75</p>
+                  </li>
+                  <li>
+                    <h3>Citrus Sunrise</h3>
+                    <p>Ingredients: Orange, grapefruit, carrot, ginger, and honey.</p>
+                    <p>Price: $5.00</p>
+                  </li>
+                </ul>
+              </div>
+        <!-- Add this container on the homepage (index.html) -->
+        <div class="information-card">
+            <h3>Total Specialty Drinks Submitted:</h3>
+            <p id="total-drinks-output"></p>
+        </div>
+
+            <div class="space-title">
+                <h1 class="menu-title build-smoothie"><a href="./fresh.html">Build your perfect smoothie</a></h1>
+        </div>
+        
+
+
+        <div class="carousel-container">
+            <div class="carousel">
+              <div class="slide">
+                <img src="./images/places/berney falls.jpeg" alt="Imagen 1">
+                <div class="description">
+                  <h3>Burney Falls</h3>
+                  <p>Burney Falls is a stunning waterfall located in California. 
+                    It features a 129-foot drop and picturesque surroundings, 
+                    attracting visitors with its natural beauty.</p>
+                </div>
+              </div>
+              <div class="slide">
+                <img src="./images/places/disneyland.jpeg" alt="Imagen 2">
+                <div class="description">
+                  <h3>Disneyland California</h3>
+                  <p>Disneyland California is a world-renowned theme park located
+                    in Anaheim. It offers magical experiences, iconic attractions,
+                    and beloved Disney characters, creating unforgettable memories
+                    for visitors of all ages.</p>
+                </div>
+              </div>
+              <div class="slide">
+                <img src="./images/places/los angeles.jpeg" alt="Imagen 3">
+                <div class="description">
+                  <h3>Los Angeles</h3>
+                  <p>Los Angeles, California, is a vibrant city known for its entertainment industry, cultural diversity, iconic landmarks, and beautiful beaches.</p>
+                </div>
+              </div>
+              <div class="slide">
+                <img src="./images/places/mendocino coast.jpeg" alt="Imagen 2">
+                <div class="description">
+                  <h3>Mendocino Coast</h3>
+                  <p>Mendocino Coast offers breathtaking coastal beauty with rugged cliffs, pristine beaches, charming towns, and stunning ocean views, perfect for nature lovers and relaxation seekers.</p>
+                </div>
+              </div>
+              <div class="slide">
+                <img src="./images/places/san francisco.jpeg" alt="Imagen 2">
+                <div class="description">
+                  <h3>San Francisco</h3>
+                  <p>San Francisco, California, is a dynamic city famous for the Golden Gate Bridge, cable cars, Alcatraz Island, and its vibrant culture, culinary scene, and iconic Victorian houses.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="space-title">
+            <h1 class="menu-title">Weather</h1>
+        </div>
+        
+        <div class="weather-container" id="weather-container"></div>
+
+    </main>
+
+    <footer>
+        <p>&copy; Mitzi Vite | Bountiful Foods | 2023</p>
+        <p> Last Modification: <span id="date2"></span></p>
+        <div class = "socialMedia-f">
+            
+            <a href="#"><img src="./images/facebook.png" alt="facebook logo"></a>
+            <a href="#"> <img src="./images/instagram.png" alt="instagram logo"></a>
+            <a href="#"><img src="./images/pinterest.png" alt="pinterest logo"></a>  
+           
+        </div>
+
+
+        
+    </footer>
+</body>
+</html>
