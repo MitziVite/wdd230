@@ -138,6 +138,7 @@ nav li{
     font-family: 'Passion One';
     line-height: 0.3;
     letter-spacing: 2px;
+    transform: translateY(90%);
 }
 
 /* MENU */
