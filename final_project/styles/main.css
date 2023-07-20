@@ -467,7 +467,14 @@ input[type="submit"] {
     font-style: italic;
     margin-top: 12px;
 }
-  
+
+.special-button {
+    color: white;
+    background-color: var(--primaryColor);
+    padding: 3.5%  41%;
+    border-radius: 18px;
+    /* Otros estilos si los deseas */
+}
 
 /* Confirmation */
 
