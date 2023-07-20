@@ -3,6 +3,7 @@
         top: 15%;
         left: 18%; 
         font-size: 40px;
+        transform: translateY(260px);
     }
     .column-1{
         flex: 40%;

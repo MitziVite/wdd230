@@ -51,15 +51,30 @@ header .content {
   gap: 5px;
 }
 
+#menu-open.active, #menu-close.active{
+    color: white;
+}
+#menu-close.active{
+    width: 9px;
+}
+
 #navbar{
     display: flex;
     flex-direction: row;
-}
-
-nav ul li .active{
-    background-color: var(--third-color);
     color: var(--second-color);
 }
+
+#navbar ul li a.active{
+    color: var(--second-color);
+}
+#navbar li a{
+    color: var(--second-color);
+}
+
+/* #navbar ul li a{
+    background-color: var(--second-color);
+    color: var(--second-color);
+} */
 
 nav a {
     float: left;
@@ -82,7 +97,7 @@ nav li{
 
 #menu-button {
     display: none;
-    background-color: black;
+    background-color: var(--second-color);
 }
 
 
@@ -103,7 +118,7 @@ nav li{
 .container-main-img .box{
     width: 400%;
     height: 500px;
-    background-color: black;
+    background-color: var(--third-color);
     background-position: top;
     transition: ease-in-out 3s;
     position: relative;
@@ -145,7 +160,7 @@ nav li{
     font-family: 'Passion One';
     line-height: 0.3;
     letter-spacing: 2px;
-    transform: translateY(90%);
+    transform: translateY(100%);
 }
 
 /* MENU */
